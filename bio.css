@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+#title{
+    position: relative;
+    top: 0px;
+    font-size: 0.8rem;
+
+}
+
+.name{
+    position: relative;
+    left: 10rem;
+    top:1rem;
+    font-size: 20px;
+}
+
+.header{
+    margin-bottom: 20px;
+}
+.contact {
+    list-style: none;
+}
+
+.contact > li{
+    display: inline;
+    margin: 10px;
+    position: relative;
+    left:60%;
+    top:-30px;
+    font-size: 0.8rem;
+}
+
+.contact > li:hover{
+    color: aqua;
+}
+
+.content{
+    background-color: rgb(171, 181, 181);
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+
+img{
+    border-radius: 50%;
+    width: 600px;
+    height: 500px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    position: relative;
+    left:15%;
+}
+
+.hello, .bit {
+    color: rgb(79, 79, 73);
+    font-weight: 400;
+}
+
+
+.circle{
+    list-style: none;
+    position: relative;
+    left:-40px;
+    top:50px;
+    margin-top: 10px;
+}
+
+.circle > li {
+    display: inline;
+    font-size: 13px;
+    border-radius: 50%;
+    padding: 50px 30px;
+    color: white;
+    margin-right: 10px;
+    box-sizing: border-box;
+
+}
+#resume{
+    background-color:rgb(216, 65, 65); 
+}
+
+#work {
+    background-color: aqua;
+}
+#skills{
+    background-color: rgb(55, 77, 50);
+}
+#bio{
+    font-size: 0.9rem;
+    position: relative;
+    top:70px;   
+    width: 450px;
+    margin-top: 30px;
+    color: rgb(79, 79, 73);
+    height: 100px;
+}
+
+.info{
+    background-color: orchid;
+    padding: 20px 40px;
+}
+
+#info{
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info > li{
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.phone{
+    display: inline;
+}
+#info > div {
+    position: relative;
+    left:10px;
+    top:10px;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 110%;
+    margin-right: 200px;
+}
+
+
+i {
+    margin-right: 10px;
+}
